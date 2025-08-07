@@ -9,10 +9,10 @@
     </div>
     <nav>
       <ul class="nav">
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/nosotros">Nosotros</a></li>
-        <li><a href="/apps">Apps</a></li>
-        <li><a href="/contacto">Contacto</a></li>
+        <li><router-link to="/">Inicio</router-link></li>
+        <li><router-link to="/nosotros">Nosotros</router-link></li>
+        <li><router-link to="/apps">Apps</router-link></li>
+        <li><router-link to="/contacto">Contacto</router-link></li>
       </ul>
     </nav>
   </header>
@@ -24,15 +24,16 @@ export default {
   data() {
     return {
       mostrarBienvenido: false
-    };
+    }
   },
   mounted() {
     setTimeout(() => {
-      this.mostrarBienvenido = true;
-    }, 2000);
+      this.mostrarBienvenido = true
+    }, 2000)
   }
 }
 </script>
+
 
 <style scoped>
 .menu {

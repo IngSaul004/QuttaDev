@@ -3,9 +3,9 @@
     <div class="footer-content">
       <p>© 2025 QuttaDev. Todos los derechos reservados.</p>
       <nav class="footer-nav">
-        <a href="/">Inicio</a> |
-        <a href="/nosotros">Nosotros</a> |
-        <a href="/contacto">Contacto</a>
+        <router-link to="/">Inicio</router-link> |
+        <router-link to="/nosotros">Nosotros</router-link> |
+        <router-link to="/contacto">Contacto</router-link>
       </nav>
     </div>
   </footer>
@@ -16,6 +16,7 @@ export default {
   name: 'fin'
 }
 </script>
+
 
 <style scoped>
 .footer {

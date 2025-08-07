@@ -1,10 +1,9 @@
-// src/router/index.js o donde tengas tu router
-import { createRouter, createWebHistory } from 'vue-router'
-import Inicio from '../views/inicio.vue'  // importa tu componente
-import Contacto from  '../views/contacto.vue'
+// src/router/index.js
+import { createRouter, createWebHashHistory } from 'vue-router'
+import Inicio from '../views/inicio.vue'
+import Contacto from '../views/contacto.vue'
 import Apps from '../views/apps.vue'
 import Nosotros from '../views/nosotros.vue'
-
 
 const routes = [
   {
@@ -15,24 +14,22 @@ const routes = [
   {
     path: '/contacto',
     name: 'Contacto',
-    component : Contacto
-
+    component: Contacto
   },
   {
     path: '/apps',
-    name:'Apps',
+    name: 'Apps',
     component: Apps
   },
   {
-    path:'/nosotros',
+    path: '/nosotros',
     name: 'Nosotros',
     component: Nosotros
   }
-  // Puedes agregar otras rutas aquí
 ]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(), // 👈 Aquí cambiamos a hash mode
   routes
 })
 
