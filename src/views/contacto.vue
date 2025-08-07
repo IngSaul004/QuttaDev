@@ -17,7 +17,6 @@
       <textarea name="message" placeholder="Escribenos tu idea" required></textarea>
 
       <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_next" value="https://quttadev.lat/gracias.html" />
 
       <button type="submit" class="btn-enviar" :disabled="enviando">
         {{ enviando ? "Enviando..." : "Enviar mensaje" }}
