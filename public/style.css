@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f9fafb 0%, #d6dde6 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333; /* texto oscuro para buen contraste */
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
