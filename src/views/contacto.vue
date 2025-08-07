@@ -8,7 +8,7 @@
     <form
       ref="form"
       @submit.prevent="handleSubmit"
-      action="https://formsubmit.co/ing.saul.rivera004@gmail.com"
+      action="https://formsubmit.co/3e6c8a9e829b44933f4545860a1ba478"
       method="POST"
       class="formulario-contacto"
     >
