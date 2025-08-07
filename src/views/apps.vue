@@ -2,11 +2,13 @@
   <section class="apps-container">
     <h1>Nuestras Soluciones</h1>
 
-    <div class="app-card" v-for="(app, index) in apps" :key="index">
-      <div class="icon" v-html="app.icon"></div>
-      <div>
-        <h2>{{ app.titulo }} <span v-if="app.estado" class="estado">({{ app.estado }})</span></h2>
-        <p>{{ app.descripcion }}</p>
+    <div class="cards-grid">
+      <div class="app-card" v-for="(app, index) in apps" :key="index">
+        <div class="icon" v-html="app.icon"></div>
+        <div>
+          <h2>{{ app.titulo }} <span v-if="app.estado" class="estado">({{ app.estado }})</span></h2>
+          <p>{{ app.descripcion }}</p>
+        </div>
       </div>
     </div>
 
@@ -38,12 +40,18 @@ const apps = [
     titulo: 'Punto de Venta',
     estado: 'En proceso',
     descripcion: 'Controla ventas, productos, clientes y reportes con una app moderna y eficiente. Ideal para tiendas físicas y negocios móviles.',
-    icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M3 5h18v2H3zm0 4h18v2H3zm0 4h12v2H3z"/></svg>`
+    icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="M9 8h6v8H9z" fill="#fff"/></svg>`
   },
   {
     titulo: 'Páginas Web',
     descripcion: 'Cuéntanos tu idea y la convertimos en una página web moderna, personalizada y optimizada. Hecha a tu medida.',
-    icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M12 4a8 8 0 100 16 8 8 0 000-16zM2 12a10 10 0 1110 10A10 10 0 012 12z"/></svg>`
+    icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10
+    10-4.48 10-10S17.52 2 12 2zm0 17l-5-5h3V9h4v5h3l-5 5z"/></svg>`
+  },
+  {
+    titulo: 'Invitaciones Digitales',
+    descripcion: 'Te creamos invitaciones para cualquier tipo de evento, a tu manera.',
+    icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M20 4H4v16h16V4zm-2 14H6V6h12v12z"/></svg>`
   },
   {
     titulo: 'Asesoría Profesional',
@@ -55,7 +63,7 @@ const apps = [
 
 <style scoped>
 .apps-container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -64,60 +72,61 @@ const apps = [
 }
 
 .apps-container h1 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
   color: #00c6ff;
 }
 
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
 .app-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
   background-color: #f3f6fa;
   border-radius: 16px;
   padding: 1.5rem;
-  margin-bottom: 1.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
   animation: fadeUp 0.7s ease forwards;
   opacity: 0;
-  transform: translateY(20px); /* importante para animación inicial */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* para que funcione el hover */
+  transform: translateY(20px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.app-card:nth-child(1) { animation-delay: 0s; }
-.app-card:nth-child(2) { animation-delay: 0.1s; }
-.app-card:nth-child(3) { animation-delay: 0.2s; }
-.app-card:nth-child(4) { animation-delay: 0.3s; }
-.app-card:nth-child(5) { animation-delay: 0.4s; }
-
-@keyframes fadeUp {
-  to {
-    opacity: 1;
-  }
-}
-
-.icon {
-  flex-shrink: 0;
-  width: 40px;
-  height: 40px;
+.app-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 }
 
 .app-card h2 {
   color: #0077b6;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 0.5rem;
+  text-align: left;
 }
 
 .app-card p {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: 500;
+  text-align: left;
 }
 
 .estado {
   font-size: 0.9rem;
   color: #ff9800;
   font-weight: 600;
+}
+
+.icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
 }
 
 .btn-contacto {
@@ -130,27 +139,16 @@ const apps = [
   border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 2rem;
 }
 
 .btn-contacto:hover {
   background-color: #009acc;
 }
 
-.app-card:hover {
-  transform: scale(1.03); /* no 2.03, para que no sea gigante */
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-}
-
-@media(max-width: 768px) {
-  .inicio-container{
-     transform: translateY(0vh); /* súbelo 5% de la altura del viewport */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
-@media(max-width: 480px) {
-  .inicio-container{
-     transform: translateY(0vh); /* súbelo 5% de la altura del viewport */
-  }
-}
-
 </style>

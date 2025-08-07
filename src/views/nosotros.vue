@@ -31,31 +31,31 @@ function irContacto() {
 
 const equipo = {
   ceo: {
-    nombre: 'Saul',
-    rol: 'CEO / Desarrollador FullStack',
+    nombre: 'Saul Rivera',
+    rol: 'Desarrollador FullStack',
     descripcion: 'Fundador y líder de QuttaDev. Experto en desarrollo web de principio a fin, abarcando tanto el frontend como el backend. Encargado de transformar ideas en productos reales.',
     icono: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M12 2a6 6 0 00-6 6c0 3.31 6 8 6 8s6-4.69 6-8a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z"/><path d="M4 20v-2c0-2.21 3.58-4 8-4s8 1.79 8 4v2H4z"/></svg>`
   },
   hugo: {
-    nombre: 'Hugo',
+    nombre: 'Hugo Cervantes',
     rol: 'Desarrollador Frontend',
     descripcion: 'Especialista en interfaces web modernas y funcionales. Se enfoca en ofrecer experiencias visuales limpias, intuitivas y bien estructuradas.',
     icono: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M3 4v16h18V4H3zm16 14H5V6h14v12z"/><path d="M8 8h8v2H8zm0 4h8v2H8z"/></svg>`
   },
   diego: {
-    nombre: 'Diego',
+    nombre: 'Diego Romero',
     rol: 'Desarrollador Frontend',
     descripcion: 'Apasionado por el diseño de interfaces dinámicas, Diego aporta creatividad y eficiencia a la estructura visual de cada uno de nuestros productos.',
     icono: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M3 4v16h18V4H3zm16 14H5V6h14v12z"/><path d="M8 8h8v2H8zm0 4h8v2H8z"/></svg>`
   },
   mark: {
-  nombre: 'Mark',
+  nombre: 'Mark Alvarez',
   rol: 'QA Tester / Control de Calidad',
   descripcion: 'Encargado de probar minuciosamente todas nuestras aplicaciones antes de su entrega. Su trabajo asegura que cada producto funcione sin errores, sea estable, y cumpla con los más altos estándares de calidad.',
   icono: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zm0 7.5L4 6.1v11.8L12 21l8-3.1V6.1l-8 3.4z"/></svg>`
 },
   juan: {
-    nombre: 'Juan José',
+    nombre: 'Juan Llamas',
     rol: 'Ventas y Asesoría',
     descripcion: 'Encargado del trato directo con nuestros clientes. Brinda asesoramiento personalizado y profesional, guiando cada proyecto con una visión estratégica.',
     icono: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M3 3h18v2H3zm0 4h18v2H3zm0 4h12v2H3z"/><path d="M16 13h5v2h-5zm0 4h5v2h-5z"/></svg>`
