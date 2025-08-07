@@ -26,7 +26,7 @@ function irContacto() {
 
 const apps = [
   {
-    titulo: 'Sistema de Vales',
+    titulo: 'Sistema de KanBan',
     descripcion: 'Plataforma inteligente para controlar las salidas de tu almacén y/o inventario. Organiza, valida y registra cada movimiento con facilidad.',
     icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M4 4h16v16H4z" fill="none"/><path d="M5 8h14v2H5zm0 4h9v2H5z"/></svg>`
   },
@@ -50,15 +50,28 @@ const apps = [
   },
   {
     titulo: 'Invitaciones Digitales',
-    descripcion: 'Te creamos invitaciones para cualquier tipo de evento, a tu manera.',
+    descripcion: 'Creamos invitaciones digitales personalizadas para todo tipo de eventos, con diseño exclusivo y facilidad para compartir.',
     icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M20 4H4v16h16V4zm-2 14H6V6h12v12z"/></svg>`
   },
   {
     titulo: 'Asesoría Profesional',
     descripcion: 'Te orientamos en decisiones industriales y tecnológicas. Mejora procesos, automatiza y digitaliza tu empresa con nosotros.',
     icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>`
-  }
+  },
+  {
+    titulo: 'Hardware',
+    descripcion: 'Suministramos equipo y componentes tecnológicos de alta calidad para optimizar tus proyectos y sistemas.',
+    icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24">
+      <rect x="4" y="4" width="16" height="16" rx="2" ry="2" stroke="#00c6ff" stroke-width="2" fill="none"/>
+      <circle cx="12" cy="12" r="3" stroke="#00c6ff" stroke-width="2" fill="none"/>
+      <line x1="12" y1="5" x2="12" y2="9" stroke="#00c6ff" stroke-width="2"/>
+      <line x1="12" y1="15" x2="12" y2="19" stroke="#00c6ff" stroke-width="2"/>
+      <line x1="5" y1="12" x2="9" y2="12" stroke="#00c6ff" stroke-width="2"/>
+      <line x1="15" y1="12" x2="19" y2="12" stroke="#00c6ff" stroke-width="2"/>
+    </svg>`
+  },
 ]
+
 </script>
 
 <style scoped>

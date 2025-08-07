@@ -2,7 +2,7 @@
   <section class="inicio-container">
     <h1 class="fade-in-out">Bienvenidos a QuttaDev</h1>
   <p>
-  QuttaDev es un equipo mexicano especializado en el desarrollo de aplicaciones web, móviles y sistemas a medida para todo tipo de negocios: pequeños, medianos y grandes.
+  QuttaDev es un equipo especializado en el desarrollo de aplicaciones web, móviles y sistemas a medida para todo tipo de negocios: pequeños, medianos y grandes.
 </p>
 <p>
   Creamos soluciones digitales eficientes, modernas y enfocadas en ofrecer una excelente experiencia de usuario (UX) y un diseño visual atractivo (UI).
