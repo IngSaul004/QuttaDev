@@ -4,6 +4,7 @@ import Inicio from '../views/inicio.vue'
 import Contacto from '../views/contacto.vue'
 import Apps from '../views/apps.vue'
 import Nosotros from '../views/nosotros.vue'
+import Reseñas from '../views/reseñas.vue'
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path: '/nosotros',
     name: 'Nosotros',
     component: Nosotros
+  },
+  {
+    path: '/reseñas',
+    name: 'Reseñas',
+    component: Reseñas
   }
 ]
 

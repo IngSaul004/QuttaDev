@@ -13,6 +13,7 @@
         <li><router-link to="/nosotros">Nosotros</router-link></li>
         <li><router-link to="/apps">Apps</router-link></li>
         <li><router-link to="/contacto">Contacto</router-link></li>
+        <li><router-link to="/reseñas">Reseñas</router-link></li>
       </ul>
     </nav>
   </header>

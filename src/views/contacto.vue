@@ -64,7 +64,6 @@ function handleSubmit() {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #222;
-  transform: translateY(10vh);
 }
 
 .contacto-container h1 {
