@@ -3,8 +3,8 @@
     <div class="logo-container">
       <img src="/logo3.png" alt="Logo QuttaDev" class="logo" />
       <h1 class="title">
-        QuttaDev
-        <span v-if="mostrarBienvenido" class="bienvenido">Bienvenido</span>
+         <router-link id="titulo" to="/">QuttaDev</router-link>
+       <span v-if="mostrarBienvenido" class="bienvenido">Bienvenido</span>
       </h1>
     </div>
     <nav>
@@ -82,6 +82,11 @@ export default {
   transform: translateX(-20px);
   animation: slideIn 0.6s forwards, fadeInOut 4s ease-in-out infinite;
   padding: 10px;
+}
+
+#titulo{
+  text-decoration: none;
+  color: white;
 }
 
 @keyframes slideIn {
