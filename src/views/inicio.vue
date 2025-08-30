@@ -2,14 +2,15 @@
   <section class="inicio-container">
     <h1 class="fade-in-out">Bienvenidos a QuttaDev</h1>
   <p>
-  QuttaDev es un equipo especializado en el desarrollo de aplicaciones web, móviles y sistemas a medida para todo tipo de negocios: pequeños, medianos y grandes.
+  En QuttaDev somos un equipo apasionado por la tecnología web, especializado en el desarrollo de aplicaciones web, móviles y sistemas a medida para negocios de cualquier tamaño: desde startups hasta empresas consolidadas.
 </p>
 <p>
-  Creamos soluciones digitales eficientes, modernas y enfocadas en ofrecer una excelente experiencia de usuario (UX) y un diseño visual atractivo (UI).
+  Diseñamos y creamos soluciones digitales modernas, eficientes y pensadas para brindar una experiencia de usuario excepcional (UX) y un diseño visual atractivo y funcional (UI). Nuestro objetivo es que cada proyecto no solo cumpla, sino que supere las expectativas de nuestros clientes.
 </p>
 <p>
-  ¡Conéctate con nosotros y lleva tu negocio al siguiente nivel con tecnología hecha a tu medida!
+  ¡Trabaja con nosotros y transforma tu negocio con tecnología personalizada que impulsa crecimiento, innovación y resultados reales!
 </p>
+
     <button class="btn-contacto" @click="irContacto">Contacto</button>
   </section>
 </template>

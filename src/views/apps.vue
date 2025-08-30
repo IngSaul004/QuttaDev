@@ -27,40 +27,40 @@ function irContacto() {
 const apps = [
   {
     titulo: 'Sistema de KanBan',
-    descripcion: 'Plataforma inteligente para controlar las salidas de tu almacén y/o inventario. Organiza, valida y registra cada movimiento con facilidad.',
+    descripcion: 'Plataforma inteligente para organizar y controlar salidas de inventario. Permite gestionar, validar y registrar cada movimiento de forma rápida y eficiente, mejorando la productividad de tu negocio.',
     icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M4 4h16v16H4z" fill="none"/><path d="M5 8h14v2H5zm0 4h9v2H5z"/></svg>`
   },
   {
     titulo: 'MyInventory',
     estado: 'En proceso',
-    descripcion: 'App diseñada para administrar tu almacén y generar inventarios de forma fácil. Gestiona y controla tus recursos de manera eficiente.',
+    descripcion: 'App diseñada para simplificar la gestión de tu almacén y crear inventarios precisos. Organiza tus productos y recursos de manera eficiente, ahorrando tiempo y reduciendo errores.',
     icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M3 3h18v2H3zm0 4h18v2H3zm0 4h12v2H3z"/></svg>`
   },
   {
     titulo: 'Punto de Venta',
     estado: 'En proceso',
-    descripcion: 'Controla ventas, productos, clientes y reportes con una app moderna y eficiente. Ideal para tiendas físicas y negocios móviles.',
+    descripcion: 'Solución moderna para controlar ventas, productos, clientes y reportes. Ideal para tiendas físicas y negocios móviles que buscan agilizar operaciones y mejorar la experiencia de sus clientes.',
     icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="M9 8h6v8H9z" fill="#fff"/></svg>`
   },
   {
     titulo: 'Páginas Web',
-    descripcion: 'Cuéntanos tu idea y la convertimos en una página web moderna, personalizada y optimizada. Hecha a tu medida.',
+    descripcion: 'Transformamos tus ideas en sitios web modernos, personalizados y optimizados. Cada proyecto se diseña a medida para ofrecer una experiencia única y funcional a tus usuarios.',
     icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10
     10-4.48 10-10S17.52 2 12 2zm0 17l-5-5h3V9h4v5h3l-5 5z"/></svg>`
   },
   {
     titulo: 'Invitaciones Digitales',
-    descripcion: 'Creamos invitaciones digitales personalizadas para todo tipo de eventos, con diseño exclusivo y facilidad para compartir.',
+    descripcion: 'Creamos invitaciones digitales únicas y personalizadas para cualquier evento. Diseños atractivos y fáciles de compartir, que sorprenden y generan emoción en tus invitados.',
     icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M20 4H4v16h16V4zm-2 14H6V6h12v12z"/></svg>`
   },
   {
     titulo: 'Asesoría Profesional',
-    descripcion: 'Te orientamos en decisiones industriales y tecnológicas. Mejora procesos, automatiza y digitaliza tu empresa con nosotros.',
+    descripcion: 'Te guiamos en decisiones tecnológicas e industriales, ayudando a mejorar procesos, automatizar tareas y digitalizar tu negocio para hacerlo más competitivo y eficiente.',
     icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>`
   },
   {
     titulo: 'Hardware',
-    descripcion: 'Suministramos equipo y componentes tecnológicos de alta calidad para optimizar tus proyectos y sistemas.',
+    descripcion: 'Suministramos equipo y componentes tecnológicos de alta calidad, diseñados para optimizar tus proyectos y sistemas con confiabilidad y desempeño garantizado.',
     icon: `<svg width="40" height="40" fill="#00c6ff" viewBox="0 0 24 24">
       <rect x="4" y="4" width="16" height="16" rx="2" ry="2" stroke="#00c6ff" stroke-width="2" fill="none"/>
       <circle cx="12" cy="12" r="3" stroke="#00c6ff" stroke-width="2" fill="none"/>
@@ -71,6 +71,7 @@ const apps = [
     </svg>`
   },
 ]
+
 
 </script>
 
